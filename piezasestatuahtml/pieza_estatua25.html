@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pieza estatua 25</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lightbox CSS y JS simple -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css" integrity="sha512-+KPZs1BTSa6l5vIk91jGJ6dW9UgVSpvGx1Xr2N7m9UTh3f97k2XoZTz2r6H5hVxZx52r6hPSNnD6bk6XkWPMig==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js" integrity="sha512-jV+kg3uYyGyyA9so+I8CDyWgWvDqz5JqLZfF+O+kGvCzG7wMZK9F+E3s7pHybY4vV1B2iMZzVZShq3hWsbX4Iw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+
+  <!-- Contenedor principal -->
+  <section class="max-w-7xl mx-auto p-6 mt-8 bg-yellow-50 rounded-2xl shadow-lg">
+
+    <!-- Contenedor de imagen y descripción lado a lado con animación al pasar el ratón -->
+    <div class="flex flex-col md:flex-row gap-8">
+
+      <!-- Imagen principal a la izquierda con marco decorativo y efecto hover -->
+      <div class="md:w-1/2 flex justify-center transition-transform transform hover:scale-105">
+        <a href="../mis_fotos/estatuas/estatua25.JPG" class="glightbox">
+          <img src="../mis_fotos/estatuas/estatua25.JPG" class="rounded-xl shadow-lg w-3/4 border-4 border-yellow-800" alt="Pieza estatua foto 25" />
+        </a>
+      </div>
+
+      <!-- Descripción a la derecha con fondo, borde, sombra y efecto hover -->
+      <div class="md:w-1/2 bg-yellow-900 p-6 rounded-xl shadow-2xl border-4 border-yellow-700 transition-transform transform hover:scale-105">
+        <!-- Nombre de la pieza como encabezamiento -->
+        <h2 class="text-3xl font-bold mb-4 text-gray-200">Estatua 1 del siglo XX a.d.c.</h2>
+        <p class="text-lg leading-relaxed mb-4 text-gray-200">
+          Aquí puedes escribir una descripción detallada de la pieza: origen, estilo, procedencia, técnica, materiales, dimensiones, contexto cultural, historia, usos, etc.
+        </p>
+        <ul class="list-disc pl-5 text-gray-200">
+          <li><strong>Tamaño:</strong> 35 cm de alto</li>
+          <li><strong>Material:</strong> Bronce</li>
+          <li><strong>Origen:</strong> Región Yoruba, siglo XIX</li>
+          <li><strong>Otros detalles:</strong> Decoraciones tradicionales grabadas a mano</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Galería adicional con lightbox -->
+    <h3 class="text-2xl font-semibold mt-10 mb-4 text-gray-700">Galería Adicional</h3>
+    <div class="grid grid-cols-1 gap-6">
+      <a href="../mis_fotos/estatuas/estatua25_1.jpg" class="glightbox"><img src="../mis_fotos/estatuas/estatua25_1.jpg" class="rounded-xl shadow-lg max-w-sm mx-auto border-2 border-yellow-700 transition-transform transform hover:scale-105" alt="Pieza estatua foto 25_1" /></a>
+      <a href="mis_fotos/estatuas/estatua1_2.jpg" class="glightbox"><img src="mis_fotos/estatuas/estatua1_3.jpg" class="rounded-xl shadow-lg max-w-sm mx-auto border-2 border-yellow-700 transition-transform transform hover:scale-105" alt="Pieza bronce foto 3" /></a>
+      <a href="mis_fotos/bronces/bronce1_4.jpg" class="glightbox"><img src="mis_fotos/bronces/bronce1_4.jpg" class="rounded-xl shadow-lg max-w-sm mx-auto border-2 border-yellow-700 transition-transform transform hover:scale-105" alt="Pieza bronce foto 4" /></a>
+    </div>
+
+    <!-- Botón de volver -->
+    <div class="mt-10 text-center">
+      <a href="../index.html" class="inline-block bg-yellow-900 text-white px-6 py-3 rounded-xl text-lg font-medium hover:bg-yellow-800 transition">
+        ← Volver a la galería
+      </a>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 mt-12 bg-yellow-900 text-white">
+    © 2025 Tu Nombre - Arte Africano
+  </footer>
+
+  <script>
+    const lightbox = GLightbox({ selector: '.glightbox' });
+  </script>
+
+</body>
+</html>
