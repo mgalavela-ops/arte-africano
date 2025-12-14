@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pieza estatua 32</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lightbox CSS y JS simple -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css" integrity="sha512-+KPZs1BTSa6l5vIk91jGJ6dW9UgVSpvGx1Xr2N7m9UTh3f97k2XoZTz2r6H5hVxZx52r6hPSNnD6bk6XkWPMig==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js" integrity="sha512-jV+kg3uYyGyyA9so+I8CDyWgWvDqz5JqLZfF+O+kGvCzG7wMZK9F+E3s7pHybY4vV1B2iMZzVZShq3hWsbX4Iw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+
+  <!-- Contenedor principal -->
+  <section class="max-w-7xl mx-auto p-6 mt-8 bg-yellow-50 rounded-2xl shadow-lg">
+
+    <!-- Contenedor de imagen y descripción lado a lado con animación al pasar el ratón -->
+    <div class="flex flex-col md:flex-row gap-8">
+
+      <!-- Imagen principal a la izquierda con marco decorativo y efecto hover -->
+      <div class="md:w-1/2 flex justify-center transition-transform transform hover:scale-105">
+        <a href="../mis_fotos/estatuas/estatua33.jpeg" class="glightbox">
+          <img src="../mis_fotos/estatuas/estatua33.jpeg" class="rounded-xl shadow-lg w-3/4 border-4 border-yellow-800" alt="Pieza estatua foto 32" />
+        </a>
+      </div>
+
+      <!-- Descripción a la derecha con fondo, borde, sombra y efecto hover -->
+      <div class="md:w-1/2 bg-yellow-900 p-6 rounded-xl shadow-2xl border-4 border-yellow-700 transition-transform transform hover:scale-105">
+        <!-- Nombre de la pieza como encabezamiento -->
+        <h2 class="text-3xl font-bold mb-4 text-gray-200">Figura Dogón sobre base esférica</h2>
+        
+        <p class="text-lg leading-relaxed mb-4 text-gray-200"  ; style="text-align: justify;">
+          Escultura antropomorfa tallada en madera, con figura humana sentada sobre una base esférica perforada.
+
+El personaje presenta cabeza prominente, vientre abultado, extremidades angulosas y postura frontal.
+
+Una mano reposa sobre la rodilla, la otra se extiende hacia el frente en gesto de acción o invocación.
+        </p>
+
+        <p class="text-lg leading-relaxed mb-4 text-gray-200"  ; style="text-align: justify;">
+          La figura representa probablemente un ancestro o espíritu protector, mediador entre el mundo humano y el espiritual.
+
+La base esférica con abertura puede simbolizar el útero, el mundo o una cavidad ritual que conecta con lo invisible.
+
+El vientre prominente y la postura sentada evocan fertilidad, introspección y autoridad espiritual.
+        </p>
+        <p class="text-lg leading-relaxed mb-4 text-gray-200"  ; style="text-align: justify;">
+          Los Dogon poseen una cosmogonía compleja, donde el arte es vehículo de comunicación espiritual.
+
+Las figuras antropomorfas no son decorativas, sino funcionales y sagradas.
+
+La escultura refleja la visión Dogon del cuerpo como contenedor de energía, memoria y vínculo con los ancestros.
+        </p>
+        <ul class="list-disc pl-5 text-gray-200">
+          <li><strong>Tamaño:</strong> 35 cm de alto</li>
+          <li><strong>Material:</strong> Madera</li>
+          <li><strong>Origen:</strong> Región de Bandiagara, Mali</li>
+          <!--<li><strong>Otros detalles:</strong> Decoraciones tradicionales grabadas a mano</li>-->
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Galería adicional con lightbox -->
+    <h3 class="text-2xl font-semibold mt-10 mb-4 text-gray-700">Galería Adicional</h3>
+    <div class="grid grid-cols-1 gap-6">
+      <a href="../mis_fotos/estatuas/estatua33_1.jpeg" class="glightbox"><img src="../mis_fotos/estatuas/estatua33_1.jpeg" class="rounded-xl shadow-lg max-w-sm mx-auto border-2 border-yellow-700 transition-transform transform hover:scale-105" alt="Pieza estatua foto 32_1" /></a>
+      <a href="../mis_fotos/estatuas/estatua33_2.jpeg" class="glightbox"><img src="../mis_fotos/estatuas/estatua33_2.jpeg" class="rounded-xl shadow-lg max-w-sm mx-auto border-2 border-yellow-700 transition-transform transform hover:scale-105" alt="Pieza bronce foto 3" /></a>
+      <a href="mis_fotos/bronces/bronce1_4.jpeg" class="glightbox"><img src="mis_fotos/bronces/bronce1_4.jpeg" class="rounded-xl shadow-lg max-w-sm mx-auto border-2 border-yellow-700 transition-transform transform hover:scale-105" alt="Pieza bronce foto 4" /></a>
+    </div>
+
+    <!-- Botón de volver -->
+    <div class="mt-10 text-center">
+      <a href="../index.html" class="inline-block bg-yellow-900 text-white px-6 py-3 rounded-xl text-lg font-medium hover:bg-yellow-800 transition">
+        ← Volver a la galería
+      </a>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 mt-12 bg-yellow-900 text-white">
+    © 2025 Tu Nombre - Arte Africano
+  </footer>
+
+  <script>
+    const lightbox = GLightbox({ selector: '.glightbox' });
+  </script>
+
+</body>
+</html>
